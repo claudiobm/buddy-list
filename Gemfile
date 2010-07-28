@@ -2,7 +2,7 @@ source :gemcutter
 
 gem "rails", "3.0.0.rc"
 gem "mysql"
-gem "haml", "3.0.4"
+gem "haml"
 gem "compass", "0.10.2"
 gem "rails3-generators"
 gem "inherited_resources", "1.1.2"
