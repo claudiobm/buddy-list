@@ -218,7 +218,7 @@ DEPENDENCIES
   devise (= 1.1.0)
   factory_girl_rails
   formtastic!
-  haml (= 3.0.4)
+  haml
   hoptoad_notifier
   hpricot
   inherited_resources (= 1.1.2)
