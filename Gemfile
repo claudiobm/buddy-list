@@ -39,6 +39,7 @@ group :development do
   gem "capistrano"
   gem "capistrano-ext"
   gem "codebase"
+  gem "pg"
 end
 
 group :production do
