@@ -1,0 +1,2 @@
+class BuddiesController < InheritedController
+end

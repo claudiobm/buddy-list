@@ -1,4 +1,6 @@
 BuddyList::Application.routes.draw do
+  resources :buddies
+
   get "home/index"
   devise_for :users
 
