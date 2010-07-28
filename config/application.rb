@@ -31,7 +31,7 @@ module BuddyList
     # config.i18n.default_locale = :de
     
     config.generators do |g|
-      g.template_engine :haml
+      # g.template_engine :haml
       g.test_framework :rspec, :fixture => false, :views => false
       g.fixture_replacement :factory_girl, :dir => "spec/factories"
     end
