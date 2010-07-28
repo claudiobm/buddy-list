@@ -25,6 +25,7 @@ group :test do
   gem 'launchy'    # So you can do Then show me the page
 
   gem "autotest-notification"
+  gem "autotest-growl" #for mac users =D
   gem "autotest"
   gem "ZenTest"
   gem "test-unit"
@@ -32,6 +33,8 @@ end
 
 group :development do
   gem "rspec-rails", ">= 2.0.0.beta.17"
+  gem "hpricot"
+  gem "ruby_parser"
   gem "mongrel"
   gem "capistrano"
   gem "capistrano-ext"
